@@ -28,8 +28,13 @@
                             <router-link :to="{ name: 'workyear'}">工作年限统计</router-link>
                            
                         </li>
+                         <li>
+                            <router-link :to="{ name: 'company-map'}">公司分布图</router-link>
+                           
+                        </li>
                         <li>
-                           <router-link :to="{ name: 'hot'}">热门公司统计</router-link>
+                            <router-link :to="{ name: 'company'}">公司规模和行业</router-link>
+                           
                         </li>
                         <li>
                             <router-link :to="{ name: 'education'}">学历统计分析</router-link>
@@ -48,6 +53,7 @@
     .show{
         display: block;
     }
+
 </style>
 <script>
     export default {
